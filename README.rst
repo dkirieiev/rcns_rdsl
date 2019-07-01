@@ -3,9 +3,6 @@ rcns_rdsl
 =========
 
 
-.. image:: https://img.shields.io/pypi/v/rcns_rdsl.svg
-        :target: https://pypi.python.org/pypi/rcns_rdsl
-
 .. image:: https://img.shields.io/travis/dkirieiev/rcns_rdsl.svg
         :target: https://travis-ci.org/dkirieiev/rcns_rdsl
 
