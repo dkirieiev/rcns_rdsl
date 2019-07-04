@@ -52,7 +52,7 @@ def robot():
     end
     """
     this_folder = dirname(__file__)
-    prog_file = join(Path(this_folder).parent, "rcns_rdsl/robots/robot.tx")
+    prog_file = join(str(Path(this_folder).parent), "rcns_rdsl/robots/robot.tx")
     instruct_file = join(this_folder, "test_route.rbt")
     return main(prog_file, instruct_file, debug=True)
 
