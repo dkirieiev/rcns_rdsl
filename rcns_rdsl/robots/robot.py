@@ -55,7 +55,7 @@ class Robot():
         return "Robot position is: {}, {}.".format(self.x, self.y)
 
     def interpret(self, model):
-        """Helps robots follows route instructions.
+        """Helps robots to follow route instructions.
 
         :param model: instance of Program. Model is a python object graph consisting of POPOs
         (Plain Old Python Objects) constructed from the input string that conforms to your DSL
