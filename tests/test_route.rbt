@@ -1,0 +1,10 @@
+begin
+  Initial 1, 1
+  Go North 1
+  Go South 1
+  Go East 1
+  Go West 1
+  Turn right
+  Turn left
+  Go 3
+end

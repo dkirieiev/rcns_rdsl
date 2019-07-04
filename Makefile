@@ -51,10 +51,11 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 rcns_rdsl tests
+	flake8 rcns_rdsl tests --ignore=E501,W391
 
 test: ## run tests quickly with the default Python
-	py.test
+	#py.test
+	python -m pytest tests/
 
 test-all: ## run tests on every Python version with tox
 	tox

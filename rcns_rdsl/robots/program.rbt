@@ -1,0 +1,18 @@
+begin
+  Initial 3, 1
+  Turn left
+  Go North 4          // go up 4 steps
+  Turn right
+  Go West 9
+  Go South          // step is optional, will be set to 1
+  Go East 1
+  Go until you reach landmark "Statue of Old Man with Large Hat"
+
+  Initial 245, 161
+  Go North 5
+  Turn right
+  Go until you reach landmark "Statue of Old Man with Large Hat"
+  Go West 25
+  Turn left
+  Go 3
+end
